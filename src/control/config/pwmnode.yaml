@@ -1,0 +1,13 @@
+condition_normal:
+  - -0.17
+  - 0.183
+  - 0
+condition_1:
+  - -0.13
+  - -0.15
+  - -0.13
+condition_2:
+  -0.13
+  -0.15
+  -0.13
+stop: 18

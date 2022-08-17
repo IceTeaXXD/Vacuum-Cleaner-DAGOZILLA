@@ -1,0 +1,2 @@
+control
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=C:\File\Nadil\STEI ITB\Unit\URO\Magang 2\tubes-magang-2-dagoz-ros\devel -DCMAKE_INSTALL_PREFIX=C:\File\Nadil\STEI ITB\Unit\URO\Magang 2\tubes-magang-2-dagoz-ros\install -G Ninja

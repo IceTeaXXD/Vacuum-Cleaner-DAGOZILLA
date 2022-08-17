@@ -1,0 +1,8 @@
+<launch>
+     <rosparam file="$(find control)/config/pwmnode.yaml" />
+     <node pkg="control" type="pwmnode" name="pwm_node" output="screen"></node>
+     <node name="rosserial" pkg="rosserial_python" type="serial_node.py" output="screen" respawn="true">
+          <param name="port" value="/dev/ttyACM0"/>
+          <param name="band" value="57600"/>
+     </node>
+</launch>
